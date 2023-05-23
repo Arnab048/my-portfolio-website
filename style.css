@@ -1,63 +1,115 @@
-body{
-    margin:0px;
-    font-family: 'Poppins',sans-serif;
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
-section{
+section {
     height: 500px;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 40Px;
 }
-p{
+
+p {
     color: dimgray;
     border: 10px;
 }
-#nugu{
-    color:orange;
-}
-#dream{
-    color:aqua;
-}
-#big{
-    color:orangered;
+
+#nugu {
+    color: orange;
 }
 
-.introText{
+#dream {
+    color: aqua;
+}
+
+#big {
+    color: orangered;
+}
+
+.introText {
     width: 40%;
-    float:left;
+    float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.introText img{
+
+.introText img {
     width: 100%;
 }
 
 
 
-.topBanner{
+.topBanner {
     background-repeat: no-repeat;
     background-image: url("Resources/top-banner.png");
 }
 
-.secondBanner{
+.secondBanner {
     background-image: url("Resources/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.linkedInButton{
+.linkedInButton {
     text-decoration: none;
-    color:whitesmoke;
+    color: whitesmoke;
     font-weight: bolder;
-    background-image: linear-gradient(60deg, lightSalmon,tomato);
+    background-image: linear-gradient(60deg, lightSalmon, tomato);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
+}
+
+.linkedInButton:hover{
+    background-image: linear-gradient(tomato,lightSalmon);
+    color:whitesmoke;
+}
+
+.timeline {
+    color: orange;
+}
+
+.singleExperience {
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+
+.experienceArena {
+    background-image: url("Resources/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#cp {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#cp:hover{
+    height: 80%;
+}
+
+
+#fool {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#fool:hover{
+    height: 80%;
+}
+
+.end{
+    text-align: center;
 }
