@@ -1,6 +1,12 @@
 body{
+    margin:0px;
     font-family: 'Poppins',sans-serif;
 }
+
+section{
+    height: 500px;
+}
+
 h1{
     font-size: 50px;
 }
@@ -10,7 +16,7 @@ h1{
 
 .introText{
     width: 40%;
-    float: left;
+    float:left;
     margin-left: 5%;
     padding-left: 2%;
 }
@@ -19,5 +25,6 @@ h1{
 }
 
 .topBanner{
-    background-image: url("/Resources/top-banner.png");
+    background-repeat: no-repeat;
+    background-image: url("Resources/top-banner.png");
 }
