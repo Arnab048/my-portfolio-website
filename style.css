@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+#nugu{
+    color:orange;
+}
+
+.introText{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.introText img{
+    width: 100%;
+}
+
+.topBanner{
+    background-image: url("/Resources/top-banner.png");
+}
